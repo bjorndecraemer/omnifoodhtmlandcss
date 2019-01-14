@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device.width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="vendors/css/normalize.css">
     <link rel="stylesheet" href="vendors/css/grid.css">
     <link rel="stylesheet" href="vendors/css/ion-icons.css">
@@ -18,6 +17,7 @@
     <nav>
         <div class="row">
             <img class="logo" src="resources/img/logo-white.png" alt="Omnifood Logo">
+            <img class="logo-black" src="resources/img/logo.png" alt="Omnifood Logo">
             <ul class="main-nav">
                 <li><a href="#">Food delivery</a></li>
                 <li><a href="#">How it works</a></li>
@@ -33,7 +33,7 @@
     </div>
 </header>
 
-<section>
+<section class="section-features js--section-features">
     <div class="row">
         <h2>Get food fast &mdash; not fast food.</h2>
         <p class="long-copy">
@@ -344,7 +344,7 @@
             </div>
             <div class="row">
                 <div class="col span-1-of-3">
-                    <label for="email">How did you find us?</label>
+                    <label for="find">How did you find us?</label>
                 </div>
                 <div class="col span-2-of-3">
                     <select name="find" id="find">
@@ -405,7 +405,13 @@
         <p>Copyright &copy; 2019 by Omnifood</p>
     </div>
 </footer>
+
+
 </body>
+<script type="text/javascript" src="vendors/js/jquery3.3.1.js"></script>
+<script type="text/javascript" src="vendors/js/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script type="text/javascript" src="resources/js/omnifood.js"></script>
 </html>
 <!--
 -->

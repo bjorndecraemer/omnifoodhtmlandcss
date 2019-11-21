@@ -1,20 +1,3 @@
-Skip to content
-
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @bjorndecraemer Sign out
-1
-1 0 bjorndecraemer/bjorn-petclinic
- Code  Issues 18  Pull requests 0  Projects 0  Wiki  Insights  Settings
-bjorn-petclinic/.gitignore
-36dabf5  on Oct 8, 2018
- beorn Initial add
-
-142 lines (118 sloc)  1.83 KB
 ######################
 # Project Specific
 ######################
@@ -156,16 +139,3 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
